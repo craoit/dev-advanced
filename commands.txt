@@ -24,3 +24,8 @@ git remote -v - to check the origin of the repository fetch and push
 new line to eecute pull, fetch, push command to sync the repository from guthub to local
 git pull origin main
 
+a. git remote set-url --add origin https:<token>@<url from running git remote -v>
+b. git push origin main
+
+also run > git remote set-url --delete <url>
+
