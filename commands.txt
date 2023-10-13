@@ -1,3 +1,4 @@
+
 Commands we learned
 git init to initialize
 git status to check and found that it is in untracked level
@@ -10,4 +11,16 @@ git log --oneline - to bring the hash ids only
 git log --oneline --pretty - to bring the small hash ids 
 git config --global user.name "craoit"  - so instead of seeing a bigger name in author you will have your own username of git
 git config --global user.email "craoit2095@gmail.com" - same goes with email
+
+
+new branch command(dev): I have added the same commands when i was in dev branch but currently i am in master branch and just to differentiate i have mentioned this statement :
+
+git checkout -b dev
+git checkout master
+git branch
+git clone <url>
+git remote -v - to check the origin of the repository fetch and push
+
+new line to eecute pull, fetch, push command to sync the repository from guthub to local
+git pull origin main
 
